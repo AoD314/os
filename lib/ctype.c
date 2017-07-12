@@ -1,4 +1,10 @@
-#include <ctype.h>
+/*
+ *  linux/lib/ctype.c
+ *
+ *  Copyright (C) 1991, 1992  Linus Torvalds
+ */
+
+#include <linux/ctype.h>
 
 char _ctmp;
 unsigned char _ctype[] = {0x00,			/* EOF */
